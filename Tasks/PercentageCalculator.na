@@ -1,0 +1,47 @@
+"Geben Sie die maximale Punktezahl ein:Geben Sie die erreichte Punktezahl ein:Prozent:%"
+inc 12
+
+lit 0
+lit 38
+lit 39
+out 2
+
+la 0 80
+la 0 84
+in 0
+
+lit 38
+lit 39
+lit 40
+out 2
+
+la 0 88
+la 0 92
+in 0
+
+la 0 92
+lv 0 88
+lit 100
+mul
+lv 0 80
+div
+sto
+
+lit 77
+lit 8
+lit 9
+out 2
+
+lv 0 92
+lit 1
+out 0
+
+lit 85
+lit 1
+lit 1
+out 2
+
+out 3
+
+
+halt
